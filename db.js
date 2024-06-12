@@ -3,7 +3,7 @@ const {MongoClient,ObjectId} = require("mongodb")
 
 
 function conectar(){
-    return MongoClient.connect(process.env.URL_MONGO);
+    return MongoClient.connect(process.env.URL_MONGODB);
 }
 
 function leerColores(){
